@@ -3,3 +3,10 @@ What happens when you initialize a repository? Why do you need to do it?
 	git init sets up a git repository for the current folder.  It is used to keep track of
 	all the commits made in the new repository.  It doesn't do any initial commits.  It's 
 	just a setup process.  It adds a bunch of git-folders to your directory (./git).
+
+How is the staging area different from the working directory and the repository? What value 
+do you think it offers?
+
+	To be honest, I don't really know.  The staging area is sort of a placeholder for files 
+	that you want added to your repository.  It is different from the working directory and
+	the repository because it is temporary.  I don't know what value it does.
