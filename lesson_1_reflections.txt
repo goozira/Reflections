@@ -1,0 +1,42 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+	Using diff or FC in Windows helped because the code was over 1000 lines long.  I would have had to open both
+	javascript files and compare each line manually to find the bug.  This would have been extremely tedious and 
+	time consuming.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+	For starters, it would make creating a changelog easier.  Also, it can timestamp the revisions made to programs
+	and help document the development process.  A big benefit would be the ability to revert the program to a 
+	previous version if a bug is introduced in a new revision.  The old version could help find the new bugs.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having 
+versions automatically saved, like Google Docs does?
+
+	The pros are that each commit has a logical reason(s) for the changes.  This lets anyone who is working on the 
+	project or people that takeover the project understand the methodology better.  The cons is if you forget to 
+	commit your changes, you might lose all of your work done if you didn't save it.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while 
+others, like Google Docs, treat each file separately?
+
+	Google Docs only lets you work on one thing at a time.  It continuously saves your work and it works simultaneously
+	online with other people.  Git, on the other hand, lets you work offline until you are ready to make a commit.
+	The save process is handled by the individual, which allows for better revision control than Google Docs.
+
+How can you use the commands git log and git diff to view the history of files?
+
+	git log lets you see all of the commits made in a repository.  git diff lets you compare two commits to each
+	other.  Both of these commands are used to report the history and changes made to files.
+	git log also gives all of the commit IDs in a repository.  Once you have the commit ID of the change you want,
+	you can then use the commit ID before it and use git diff to see the changes made in that commit.
+
+How might using version control make you more confident to make changes that could break something?
+
+	I don't have to worry about trying to go back and read the code to find where the program breaks.  I can use
+	version control to find the error, if I make logical commits.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+	EVERYTHING!!!
+

@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	git init sets up a git repository for the current folder.  It is used to keep track of
+	all the commits made in the new repository.  It doesn't do any initial commits.  It's 
+	just a setup process.  It adds a bunch of git-folders to your directory (./git).
