@@ -30,6 +30,8 @@ organized? How would branches help?
 	version of the program.
 
 How do the diagrams help you visualize the branch structure?
+	Diagrams can help determine the reachability of a commit.  If you have a commit that is 
+	not set as a branch, then it can be lost if someone checks out the master branch.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
