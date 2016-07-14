@@ -43,3 +43,6 @@ the diagram the way we do?
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+	
+	I actually have no idea how Git merges files.  I understand that it parses it, but it
+	can sometimes keep up with logical things.  That's what confuses me.  How does it know?
