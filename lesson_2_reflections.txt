@@ -16,8 +16,18 @@ do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	The staging area can be used to list the files that have been changed.  This way you can
+	keep track of each logical change.  It can basically limit logical change(s) to a single
+	file.
+	
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	
+	One key situation is when I want to tweak a program or experiment with its behavior.  
+	Many times when I am programming, I like to see what the program will do if I give it 
+	different input values or bad input.  This would be for testing purposes.  Also, I can
+	add different methods or attributes to a program and test them without ruining a working
+	version of the program.
 
 How do the diagrams help you visualize the branch structure?
 
